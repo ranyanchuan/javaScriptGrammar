@@ -41,7 +41,7 @@
   D. console.log(2**1**2)
 ```
 
-7.下面哪个选项打印值为false？ (B,D)
+7.下面哪个选项打印值为false？ (B)
 ```
   A. console.log([1,2,3].includes(2))
   B. console.log([1,2,3].includes(4))
