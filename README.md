@@ -2,11 +2,12 @@
 
 
 1.下面哪个选项打印出的来值不为{}? (D)
+```
   A console.log({...true})
   B console.log({...undefined})
   C console.log({...null})
   D console.log({...'hello'})
-
+```
 2.let aClone={...a}; 与 let aClone=Object.assign({},a);是否等价?(A)
   A 等价
   B 不等价
