@@ -48,3 +48,11 @@
   C. console.log([1,2,NaN].includes(NaN))
   D. console.log([1,2,3].includes(3,-1))
 ```
+8.下面console.log()打印出来的值是多少？(**{}**)
+```
+const json={}
+const {size = 10, pageIndex = 0} = json;
+delete json.size;
+delete json.pageIndex;
+console.log(json)
+```
