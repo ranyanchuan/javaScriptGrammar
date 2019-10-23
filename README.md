@@ -56,3 +56,18 @@ delete json.size;
 delete json.pageIndex;
 console.log(json)
 ```
+9. 用对象收编变量
+```js
+var CheckObject = {
+        checkName: function () {
+            return this;
+        },
+        checkEmail: function () {
+            return this;
+        },
+        checkPassword: function () {
+            return this;
+        },
+};
+
+```
