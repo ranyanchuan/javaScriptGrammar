@@ -99,4 +99,19 @@ var CheckObject = {
     }
 
 ```
+11. 属性可以枚举和不可以枚举
+```js
+const p1=new Promise((resolve,reject)=>{
+        resolve("OK1")
+    });
+
+const p2=new Promise((resolve,reject)=>{
+        resolve("OK2")
+    });
+
+
+Promise.all([p1,p2]).then(result=>{
+        console.log("result",result);
+    })
+```
 
