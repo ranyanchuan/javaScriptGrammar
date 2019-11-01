@@ -99,7 +99,7 @@ var CheckObject = {
     }
 
 ```
-11. 属性可以枚举和不可以枚举
+11. Promise.all
 ```js
 const p1=new Promise((resolve,reject)=>{
         resolve("OK1")
@@ -114,4 +114,19 @@ Promise.all([p1,p2]).then(result=>{
         console.log("result",result);
     })
 ```
+12. 属性可以枚举和不可以枚举
+```js
+function Person() {
+        this.name = "KXY";
+    }
+Person.prototype = {
+        constructor: Person,
+        job: "student",
+    };
 
+var kxy = new Person();
+Object.defineProperty(kxy, "sex", {
+        value: "female",
+        enumerable: false
+    });
+```
